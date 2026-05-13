@@ -29,5 +29,14 @@ Current trend is towards using pytest but here we use unittest
 - Starting a new app in your working directory: `python manage.py startapp lists`
     - Makes a new app called `lists`
     - Will make a new directory called /lists with placeholder files for things like models, views, tests 
+- MVC pattern = `model-view-controller`
+
+### General Django Workflow
+1) An HTTP request comes in for a particular URL
+2) Django "resolves" the URL i.e. decides which `view` function
+3) The `view` function processes the request and returns an HTTP response
+- Therefore we want to test two things:
+    - Does the view function return the HTML we need?
+    - Can we tell Django to use this correct view function when we make a request for the root of the site ("/")?
 
 ### Unit Testing in Django
