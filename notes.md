@@ -40,3 +40,8 @@ Current trend is towards using pytest but here we use unittest
     - Can we tell Django to use this correct view function when we make a request for the root of the site ("/")?
 
 ### Unit Testing in Django
+
+### To-Do List App - Architecture
+- Apps: lists, 
+- functional_tests.py
+- manage.py
